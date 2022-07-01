@@ -1,5 +1,5 @@
-import '@testing-library/cypress/add-commands';
-import 'cypress-wait-until';
+require('@testing-library/cypress/add-commands');
+require('cypress-wait-until');
 
 // puppeteer commands
 
