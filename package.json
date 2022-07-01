@@ -34,6 +34,7 @@
     "bytes32": "0.0.3",
     "cross-zip": "^4.0.0",
     "cypress": "^9.5.3",
+    "cypress-wait-until": "^1.7.2",
     "dotenv": "^16.0.0",
     "eslint-plugin-cypress": "^2.11.3",
     "ethers": "^5.1.4",
@@ -43,8 +44,7 @@
     "standard": "^16.0.3",
     "start-server-and-test": "^1.12.2",
     "superstatic": "^7.1.0",
-    "synthetix-js": "^2.66.0",
-    "cypress-wait-until": "^1.7.2"
+    "synthetix-js": "^2.66.0"
   },
   "repository": {
     "type": "git",
@@ -55,5 +55,6 @@
     "url": "https://github.com/saxenashivang/cypress-metamask-v2/issues"
   },
   "homepage": "https://github.com/saxenashivang/cypress-metamask-v2#readme",
-  "author": "shivang"
+  "author": "shivang",
+  "packageManager": "yarn@3.2.1"
 }
