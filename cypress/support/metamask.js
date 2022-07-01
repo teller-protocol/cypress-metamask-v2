@@ -616,7 +616,6 @@ module.exports = {
 
     await puppeteer.init();
     await puppeteer.assignWindows();
-    await puppeteer.assignActiveTabName('cypress');
     await puppeteer.switchToMetamaskWindow();
     await puppeteer.metamaskWindow().waitForTimeout(1000);
     if (
