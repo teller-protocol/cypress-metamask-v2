@@ -608,6 +608,8 @@ module.exports = {
     return walletAddress;
   },
   initialSetup: async ({ secretWordsOrPrivateKey, network, password }) => {
+    if (walletAddress != null) return true;
+
     const isCustomNetwork =
       (process.env.NETWORK_NAME &&
         process.env.RPC_URL &&
